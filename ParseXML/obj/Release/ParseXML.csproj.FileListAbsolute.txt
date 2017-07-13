@@ -1,0 +1,8 @@
+E:\_Work\VS\ParseXML\ParseXML\bin\Release\ParseXML.exe.config
+E:\_Work\VS\ParseXML\ParseXML\bin\Release\ParseXML.exe
+E:\_Work\VS\ParseXML\ParseXML\bin\Release\ParseXML.pdb
+E:\_Work\VS\ParseXML\ParseXML\obj\Release\ParseXML.FormMain.resources
+E:\_Work\VS\ParseXML\ParseXML\obj\Release\ParseXML.Properties.Resources.resources
+E:\_Work\VS\ParseXML\ParseXML\obj\Release\ParseXML.csproj.GenerateResource.Cache
+E:\_Work\VS\ParseXML\ParseXML\obj\Release\ParseXML.exe
+E:\_Work\VS\ParseXML\ParseXML\obj\Release\ParseXML.pdb

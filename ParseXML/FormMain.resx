@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textXML.Text" xml:space="preserve">
+    <value>&lt;table style="width:100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+&lt;table border="0" width="100%" cellpadding="2" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan="3" width="100%"&gt;&lt;img src="./autoUso_files/logoSplash.gif" style="position: relative; height: 55px; width: 55px; left: 80px;"&gt;&lt;label class="TituloGrandePaginas" style="text-align: left; position: relative; float: left; margin-left: 150px; margin-top: -50px;"&gt;
+GOVERNO DO DISTRITO FEDERAL&lt;br&gt;SECRETARIA DE ESTADO DE FAZENDA
+&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Chave de Acesso:&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;53-1707-47.508.411/1035-59-65-043-000.115.631-100.017.263-0&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número NF-e:&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;115631&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Data de Emissão:&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;06/07/2017 09:02:32-03:00&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;div style="text-align: right; padding-right: 10px; padding-bottom: 10px;"&gt;&lt;img src="./autoUso_files/imprimir.jpg" alt="Imprimir" style="border: medium none ; cursor: pointer;" onclick="javascript:DoPrinting();"&gt;&lt;br&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--Dados da NF-e--&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+Dados da NF-e
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--Dados Básicos--&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="14%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Modelo&lt;/span&gt;&lt;span class="linha"&gt;65&lt;/span&gt;&lt;/td&gt;&lt;td width="13%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Série&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;43&lt;/span&gt;&lt;/td&gt;&lt;td width="13%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;115631&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Data de Emissão&lt;/span&gt;&lt;span class="linha"&gt;06/07/2017 09:02:32-03:00&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Data Saída/Entrada
+&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total da Nota Fiscal&lt;/span&gt;&lt;span class="linha"&gt;47.92&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--Emitente--&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="4"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+Emitente
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CNPJ&lt;/span&gt;&lt;span class="linha"&gt;47.508.411/1035-59&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Nome / Razão Social&lt;/span&gt;&lt;span class="linha"&gt;CIA BRASILEIRA DE DISTRIBUICAO&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Inscrição Estadual&lt;/span&gt;&lt;span class="linha"&gt;0730478702600&lt;/span&gt;&lt;/td&gt;&lt;td width="10%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;UF&lt;/span&gt;&lt;span class="linha"&gt;DF&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--Destinatário--&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="4"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+Destinatário
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CPF&lt;/span&gt;&lt;span class="linha"&gt;028.480.566-14&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Nome / Razão Social&lt;/span&gt;&lt;span class="linha"&gt;FERNANDA SALGADO&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Inscrição Estadual&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="10%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;UF&lt;/span&gt;&lt;span class="linha"&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Destino da operação&lt;/span&gt;&lt;span class="linha"&gt;
+1 - Operação Interna
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Consumidor final&lt;/span&gt;&lt;span class="linha"&gt;
+1 - Sim
+&lt;/span&gt;&lt;/td&gt;&lt;td colspan="2"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Presença do Comprador&lt;/span&gt;&lt;span class="linha"&gt;
+1 - Operação presencial
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--Emissão--&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="4"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+Emissão
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="35%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Processo&lt;/span&gt;&lt;span class="linha"&gt;0 -
+Emissão de NF-e com aplicativo do Contribuinte&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Versão do Processo&lt;/span&gt;&lt;span class="linha"&gt;Siac 6.23.07.7&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Tipo Emissão&lt;/span&gt;&lt;span class="linha"&gt;1 -
+Normal&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Finalidade&lt;/span&gt;&lt;span class="linha"&gt;1 -
+NF-e normal&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="35%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Natureza da Operação&lt;/span&gt;&lt;span class="linha"&gt;VENDA A CONSUMIDOR FINAL&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Tipo da Operação&lt;/span&gt;&lt;span class="linha"&gt;1 -
+Saída&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Forma de Pagamento&lt;/span&gt;&lt;span class="linha"&gt;1 -
+A prazo&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegritoItalico"&gt;Digest Value&lt;/span&gt;&lt;span class="TextoFundoBrancoNegrito"&gt; da NF-e&lt;/span&gt;&lt;span class="linha"&gt;+3+Zyavm3dqRGifbrEqpbDjy8OE=&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--Informações suplementares--&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;Informações suplementares&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;QrCode&lt;/span&gt;&lt;span class="linha"&gt;http://dec.fazenda.df.gov.br/ConsultarNFCe.aspx?chNFe=53170747508411103559650430001156311000172630&amp;amp;nVersao=100&amp;amp;tpAmb=1&amp;amp;cDest=02848056614&amp;amp;dhEmi=323031372d30372d30365430393a30323a33322d30333a3030&amp;amp;vNF=47.92&amp;amp;vICMS=4.83&amp;amp;digVal=2b332b5a7961766d33647152476966627245717062446a79384f453d&amp;amp;cIdToken=000002&amp;amp;cHashQRCode=e17be65a097e156bc106a85eb67b8f67a608d941&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--Situação Atual--&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#003300; color:#FFFFFF; font-weight: bold;"&gt;
+Situacao Atual :
+
+ AUTORIZADA 
+
+(Ambiente de autorização:
+ produção)
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Eventos da NF-e
+&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Protocolo
+&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Data / Hora
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="linha"&gt;Autorizado o uso da NFC-e (Cód.: 110100)
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="linha"&gt;353170110293612&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="linha"&gt;06/07/2017 09:02:34&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+Dados do Emitente
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;table width="100%" height="100%" border="0" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Nome / Razão Social&lt;/span&gt;&lt;span class="linha"&gt;CIA BRASILEIRA DE DISTRIBUICAO&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Nome Fantasia&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;PA - W3 NORTE&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CNPJ&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;47.508.411/1035-59
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Endereço&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;EQN 508/509 BL. A LOJA 1 ASA NORTE&amp;nbsp;
+0&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Bairro / Distrito&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;ASA NORTE&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CEP&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;70740-546&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Município&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;5300108 -
+BRASILIA&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Telefone&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;(061)3244-0190
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;UF&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;DF&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;País&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;1058 -
+Brasil&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Inscrição Estadual&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0730478702600&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Inscrição Estadual do Substituto Tributário
+&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Inscrição Municipal&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Município da Ocorrência do Fato Gerador do ICMS
+&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;5300108&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CNAE Fiscal&lt;/span&gt;&lt;span class="linha"&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Regime Tributário&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;3 - Regime Normal
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;
+&lt;table width="100%" height="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+Dados do Destinatário / Remetente
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;table width="100%" height="100%" border="0" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="2"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Nome / Razão Social&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;FERNANDA SALGADO&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CPF&lt;/span&gt;&lt;span class="linha"&gt;028.480.566-14
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Endereço&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;&amp;nbsp;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Bairro / Distrito&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CEP&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Município&lt;/span&gt;&lt;span class="linha"&gt; -
+
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Telefone&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;UF&lt;/span&gt;&lt;span class="linha"&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;País&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;&amp;nbsp;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Inscrição Estadual&lt;/span&gt;&lt;span class="linha"&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Inscrição SUFRAMA&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Inscrição Municipal&lt;/span&gt;&lt;span class="linha"&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;E-mail&lt;/span&gt;&lt;span class="linha"&gt;&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Indicador da IE&lt;/span&gt;&lt;span class="linha"&gt;
+9 - Não Contribuinte, que pode ou não possuir Inscrição Estadual no Cadastro de Contribuintes do ICMS.
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0" style="z-index: 1;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="5"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+DADOS DOS PRODUTOS E SERVIÇOS
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0" style="z-index:1;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="4%"&gt;&lt;img src="./autoUso_files/ico_menos.gif" id="img12" title="Detalhar" style="cursor: pointer" onclick="expandcontent('12', this.id)"&gt;1&lt;/td&gt;&lt;td width="46%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;CHESTER LANCHE PERDI&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0.132&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;KG&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor(R$)&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;2.86&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div id="12" style="display:block;min-height:100px;  height:auto; _height:0%;"&gt;
+&lt;table border="0" width="95%" cellpadding="2px" cellspacing="0" align="right"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código do produto&lt;/span&gt;&lt;span class="linha"&gt;9942
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código NCM&lt;/span&gt;&lt;span class="linha"&gt;16023900
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Gênero&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EX da TIP&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CFOP&lt;/span&gt;&lt;span class="linha"&gt;5405
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Outras Despesas Acessórias&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Desconto&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total do Frete&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Seguro&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Indicador de Composição do Valor Total da NF-e
+&lt;/span&gt;&lt;span class="linha"&gt;
+1 - O valor do item (vProd) compõe o valor total da NF-e (vProd)
+
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Comercial&lt;/span&gt;&lt;span class="linha"&gt;02000994000008
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;KG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;0.132&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Tributável&lt;/span&gt;&lt;span class="linha"&gt;02000994000008
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;KG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;0.132&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Comercialização&lt;/span&gt;&lt;span class="linha"&gt;21.69
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Tributação&lt;/span&gt;&lt;span class="linha"&gt;21.69
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Aproximado dos Tributos&lt;/span&gt;&lt;span class="linha"&gt;0.64
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Item do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número da FCI&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Codificação NVE&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--ICMS NORMAL E ST--&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+ICMS NORMAL E ST
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Origem da Mercadoria&lt;/span&gt;&lt;span class="linha"&gt;0 - Nacional&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Tributação do ICMS&lt;/span&gt;&lt;span class="linha"&gt;60 - ICMS cobrado anteriormente por substituição tributária&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor da BC do ICMS ST retido&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do ICMS ST retido&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;  
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--IPI--&gt;&lt;!--II--&gt;&lt;!--DI--&gt;&lt;!--PIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+PROGRAMA DE INTEGRAÇÃO SOCIAL (PIS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;01 - Operação Tributável (base de cálculo = valor da operação alíquota normal (cumulativo/não cumulativo))&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Base de Cálculo&lt;/span&gt;&lt;span class="linha"&gt;2.86
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Alíquota&lt;/span&gt;&lt;span class="linha"&gt;1.6500
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor&lt;/span&gt;&lt;span class="linha"&gt;0.05
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--PISST--&gt;&lt;!--COFINS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+CONTRIBUIÇÃO PARA FINANCIAMENTO DA SEGURIDADE SOCIAL (COFINS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;01 - Operação Tributável (base de cálculo = valor da operação alíquota normal (cumulativo/não cumulativo))&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Base de Cálculo&lt;/span&gt;&lt;span class="linha"&gt;2.86
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Alíquota&lt;/span&gt;&lt;span class="linha"&gt;7.6000
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor&lt;/span&gt;&lt;span class="linha"&gt;0.22
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--COFINSST--&gt;&lt;!--ISSQN--&gt;&lt;!--VEÍCULO NOVO--&gt;&lt;!--MEDICAMENTO--&gt;&lt;!--ARMAMENTO--&gt;&lt;!--COMBUSTÍVEL--&gt;&lt;!--INFORMAÇÕES ADICIONAIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;
+&lt;table width="100%" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="4"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+INFORMAÇÕES ADICIONAIS DO PRODUTO
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;span class="linha"&gt;000200360001F
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0" style="z-index:1;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="4%"&gt;&lt;img src="./autoUso_files/ico_menos.gif" id="img22" title="Detalhar" style="cursor: pointer" onclick="expandcontent('22', this.id)"&gt;2&lt;/td&gt;&lt;td width="46%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;QA QJ MUSS QA FAT&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0.142&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;KG&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor(R$)&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;3.96&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div id="22" style="display:block;min-height:100px;  height:auto; _height:0%;"&gt;
+&lt;table border="0" width="95%" cellpadding="2px" cellspacing="0" align="right"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código do produto&lt;/span&gt;&lt;span class="linha"&gt;143745
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código NCM&lt;/span&gt;&lt;span class="linha"&gt;04061010
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Gênero&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EX da TIP&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CFOP&lt;/span&gt;&lt;span class="linha"&gt;5102
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Outras Despesas Acessórias&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Desconto&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total do Frete&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Seguro&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Indicador de Composição do Valor Total da NF-e
+&lt;/span&gt;&lt;span class="linha"&gt;
+1 - O valor do item (vProd) compõe o valor total da NF-e (vProd)
+
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Comercial&lt;/span&gt;&lt;span class="linha"&gt;02014374000007
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;KG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;0.142&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Tributável&lt;/span&gt;&lt;span class="linha"&gt;02014374000007
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;KG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;0.142&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Comercialização&lt;/span&gt;&lt;span class="linha"&gt;27.90
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Tributação&lt;/span&gt;&lt;span class="linha"&gt;27.90
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Aproximado dos Tributos&lt;/span&gt;&lt;span class="linha"&gt;0.88
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Item do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número da FCI&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Codificação NVE&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--ICMS NORMAL E ST--&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+ICMS NORMAL E ST
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Origem da Mercadoria&lt;/span&gt;&lt;span class="linha"&gt;0 - Nacional&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Tributação do ICMS&lt;/span&gt;&lt;span class="linha"&gt;00 - Tributada integralmente&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Modalidade Definição da BC ICMS NORMAL&lt;/span&gt;&lt;span class="linha"&gt;3 - Valor da Operação&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Base de Cálculo do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;3.96
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Alíquota do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;18.0000
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;0.71
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--IPI--&gt;&lt;!--II--&gt;&lt;!--DI--&gt;&lt;!--PIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+PROGRAMA DE INTEGRAÇÃO SOCIAL (PIS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;06 - Operação Tributável (alíquota zero)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--PISST--&gt;&lt;!--COFINS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+CONTRIBUIÇÃO PARA FINANCIAMENTO DA SEGURIDADE SOCIAL (COFINS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;06 - Operação Tributável (alíquota zero)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--COFINSST--&gt;&lt;!--ISSQN--&gt;&lt;!--VEÍCULO NOVO--&gt;&lt;!--MEDICAMENTO--&gt;&lt;!--ARMAMENTO--&gt;&lt;!--COMBUSTÍVEL--&gt;&lt;!--INFORMAÇÕES ADICIONAIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;
+&lt;table width="100%" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="4"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+INFORMAÇÕES ADICIONAIS DO PRODUTO
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;span class="linha"&gt;000200250001T9
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0" style="z-index:1;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="4%"&gt;&lt;img src="./autoUso_files/ico_menos.gif" id="img32" title="Detalhar" style="cursor: pointer" onclick="expandcontent('32', this.id)"&gt;3&lt;/td&gt;&lt;td width="46%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;MASSA TAP BCHEF 410G&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor(R$)&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;12.90&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div id="32" style="display:block;min-height:100px;  height:auto; _height:0%;"&gt;
+&lt;table border="0" width="95%" cellpadding="2px" cellspacing="0" align="right"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código do produto&lt;/span&gt;&lt;span class="linha"&gt;1091730
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código NCM&lt;/span&gt;&lt;span class="linha"&gt;19030000
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Gênero&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EX da TIP&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CFOP&lt;/span&gt;&lt;span class="linha"&gt;5102
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Outras Despesas Acessórias&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Desconto&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total do Frete&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Seguro&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Indicador de Composição do Valor Total da NF-e
+&lt;/span&gt;&lt;span class="linha"&gt;
+1 - O valor do item (vProd) compõe o valor total da NF-e (vProd)
+
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Comercial&lt;/span&gt;&lt;span class="linha"&gt;07898994407812
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Tributável&lt;/span&gt;&lt;span class="linha"&gt;07898994407812
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Comercialização&lt;/span&gt;&lt;span class="linha"&gt;12.90
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Tributação&lt;/span&gt;&lt;span class="linha"&gt;12.90
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Aproximado dos Tributos&lt;/span&gt;&lt;span class="linha"&gt;4.06
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Item do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número da FCI&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Codificação NVE&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--ICMS NORMAL E ST--&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+ICMS NORMAL E ST
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Origem da Mercadoria&lt;/span&gt;&lt;span class="linha"&gt;0 - Nacional&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Tributação do ICMS&lt;/span&gt;&lt;span class="linha"&gt;00 - Tributada integralmente&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Modalidade Definição da BC ICMS NORMAL&lt;/span&gt;&lt;span class="linha"&gt;3 - Valor da Operação&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Base de Cálculo do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;12.90
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Alíquota do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;18.0000
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;2.32
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--IPI--&gt;&lt;!--II--&gt;&lt;!--DI--&gt;&lt;!--PIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+PROGRAMA DE INTEGRAÇÃO SOCIAL (PIS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;01 - Operação Tributável (base de cálculo = valor da operação alíquota normal (cumulativo/não cumulativo))&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Base de Cálculo&lt;/span&gt;&lt;span class="linha"&gt;12.90
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Alíquota&lt;/span&gt;&lt;span class="linha"&gt;1.6500
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor&lt;/span&gt;&lt;span class="linha"&gt;0.21
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--PISST--&gt;&lt;!--COFINS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+CONTRIBUIÇÃO PARA FINANCIAMENTO DA SEGURIDADE SOCIAL (COFINS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;01 - Operação Tributável (base de cálculo = valor da operação alíquota normal (cumulativo/não cumulativo))&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Base de Cálculo&lt;/span&gt;&lt;span class="linha"&gt;12.90
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Alíquota&lt;/span&gt;&lt;span class="linha"&gt;7.6000
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor&lt;/span&gt;&lt;span class="linha"&gt;0.98
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--COFINSST--&gt;&lt;!--ISSQN--&gt;&lt;!--VEÍCULO NOVO--&gt;&lt;!--MEDICAMENTO--&gt;&lt;!--ARMAMENTO--&gt;&lt;!--COMBUSTÍVEL--&gt;&lt;!--INFORMAÇÕES ADICIONAIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;
+&lt;table width="100%" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="4"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+INFORMAÇÕES ADICIONAIS DO PRODUTO
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;span class="linha"&gt;002200230005T9
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0" style="z-index:1;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="4%"&gt;&lt;img src="./autoUso_files/ico_menos.gif" id="img42" title="Detalhar" style="cursor: pointer" onclick="expandcontent('42', this.id)"&gt;4&lt;/td&gt;&lt;td width="46%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;LTE LV INT PIRAC 1LT&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor(R$)&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;3.79&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div id="42" style="display:block;min-height:100px;  height:auto; _height:0%;"&gt;
+&lt;table border="0" width="95%" cellpadding="2px" cellspacing="0" align="right"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código do produto&lt;/span&gt;&lt;span class="linha"&gt;5089116
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código NCM&lt;/span&gt;&lt;span class="linha"&gt;04012010
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Gênero&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EX da TIP&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CFOP&lt;/span&gt;&lt;span class="linha"&gt;5405
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Outras Despesas Acessórias&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Desconto&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total do Frete&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Seguro&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Indicador de Composição do Valor Total da NF-e
+&lt;/span&gt;&lt;span class="linha"&gt;
+1 - O valor do item (vProd) compõe o valor total da NF-e (vProd)
+
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Comercial&lt;/span&gt;&lt;span class="linha"&gt;07898215151708
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Tributável&lt;/span&gt;&lt;span class="linha"&gt;07898215151708
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Comercialização&lt;/span&gt;&lt;span class="linha"&gt;3.79
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Tributação&lt;/span&gt;&lt;span class="linha"&gt;3.79
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Aproximado dos Tributos&lt;/span&gt;&lt;span class="linha"&gt;0.16
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Item do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número da FCI&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Codificação NVE&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--ICMS NORMAL E ST--&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+ICMS NORMAL E ST
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Origem da Mercadoria&lt;/span&gt;&lt;span class="linha"&gt;0 - Nacional&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Tributação do ICMS&lt;/span&gt;&lt;span class="linha"&gt;60 - ICMS cobrado anteriormente por substituição tributária&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor da BC do ICMS ST retido&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do ICMS ST retido&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;  
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--IPI--&gt;&lt;!--II--&gt;&lt;!--DI--&gt;&lt;!--PIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+PROGRAMA DE INTEGRAÇÃO SOCIAL (PIS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;06 - Operação Tributável (alíquota zero)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--PISST--&gt;&lt;!--COFINS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+CONTRIBUIÇÃO PARA FINANCIAMENTO DA SEGURIDADE SOCIAL (COFINS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;06 - Operação Tributável (alíquota zero)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--COFINSST--&gt;&lt;!--ISSQN--&gt;&lt;!--VEÍCULO NOVO--&gt;&lt;!--MEDICAMENTO--&gt;&lt;!--ARMAMENTO--&gt;&lt;!--COMBUSTÍVEL--&gt;&lt;!--INFORMAÇÕES ADICIONAIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;
+&lt;table width="100%" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="4"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+INFORMAÇÕES ADICIONAIS DO PRODUTO
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;span class="linha"&gt;001701220003F
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0" style="z-index:1;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="4%"&gt;&lt;img src="./autoUso_files/ico_menos.gif" id="img52" title="Detalhar" style="cursor: pointer" onclick="expandcontent('52', this.id)"&gt;5&lt;/td&gt;&lt;td width="46%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;MIST BOLO D B LARANJ&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor(R$)&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;4.86&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div id="52" style="display:block;min-height:100px;  height:auto; _height:0%;"&gt;
+&lt;table border="0" width="95%" cellpadding="2px" cellspacing="0" align="right"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código do produto&lt;/span&gt;&lt;span class="linha"&gt;4408826
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código NCM&lt;/span&gt;&lt;span class="linha"&gt;19012000
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Gênero&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EX da TIP&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CFOP&lt;/span&gt;&lt;span class="linha"&gt;5102
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Outras Despesas Acessórias&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Desconto&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total do Frete&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Seguro&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Indicador de Composição do Valor Total da NF-e
+&lt;/span&gt;&lt;span class="linha"&gt;
+1 - O valor do item (vProd) compõe o valor total da NF-e (vProd)
+
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Comercial&lt;/span&gt;&lt;span class="linha"&gt;07896005272022
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Tributável&lt;/span&gt;&lt;span class="linha"&gt;07896005272022
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Comercialização&lt;/span&gt;&lt;span class="linha"&gt;4.86
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Tributação&lt;/span&gt;&lt;span class="linha"&gt;4.86
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Aproximado dos Tributos&lt;/span&gt;&lt;span class="linha"&gt;1.52
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Item do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número da FCI&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Codificação NVE&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--ICMS NORMAL E ST--&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+ICMS NORMAL E ST
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Origem da Mercadoria&lt;/span&gt;&lt;span class="linha"&gt;0 - Nacional&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Tributação do ICMS&lt;/span&gt;&lt;span class="linha"&gt;00 - Tributada integralmente&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Modalidade Definição da BC ICMS NORMAL&lt;/span&gt;&lt;span class="linha"&gt;3 - Valor da Operação&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Base de Cálculo do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;4.86
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Alíquota do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;18.0000
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;0.87
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--IPI--&gt;&lt;!--II--&gt;&lt;!--DI--&gt;&lt;!--PIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+PROGRAMA DE INTEGRAÇÃO SOCIAL (PIS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;01 - Operação Tributável (base de cálculo = valor da operação alíquota normal (cumulativo/não cumulativo))&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Base de Cálculo&lt;/span&gt;&lt;span class="linha"&gt;4.86
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Alíquota&lt;/span&gt;&lt;span class="linha"&gt;1.6500
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor&lt;/span&gt;&lt;span class="linha"&gt;0.08
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--PISST--&gt;&lt;!--COFINS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+CONTRIBUIÇÃO PARA FINANCIAMENTO DA SEGURIDADE SOCIAL (COFINS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;01 - Operação Tributável (base de cálculo = valor da operação alíquota normal (cumulativo/não cumulativo))&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Base de Cálculo&lt;/span&gt;&lt;span class="linha"&gt;4.86
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Alíquota&lt;/span&gt;&lt;span class="linha"&gt;7.6000
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor&lt;/span&gt;&lt;span class="linha"&gt;0.37
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--COFINSST--&gt;&lt;!--ISSQN--&gt;&lt;!--VEÍCULO NOVO--&gt;&lt;!--MEDICAMENTO--&gt;&lt;!--ARMAMENTO--&gt;&lt;!--COMBUSTÍVEL--&gt;&lt;!--INFORMAÇÕES ADICIONAIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;
+&lt;table width="100%" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="4"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+INFORMAÇÕES ADICIONAIS DO PRODUTO
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;span class="linha"&gt;001307300001T9
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0" style="z-index:1;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="4%"&gt;&lt;img src="./autoUso_files/ico_menos.gif" id="img62" title="Detalhar" style="cursor: pointer" onclick="expandcontent('62', this.id)"&gt;6&lt;/td&gt;&lt;td width="46%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;OVOS VERM GDE  DZ&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor(R$)&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;10.59&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div id="62" style="display:block;min-height:100px;  height:auto; _height:0%;"&gt;
+&lt;table border="0" width="95%" cellpadding="2px" cellspacing="0" align="right"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código do produto&lt;/span&gt;&lt;span class="linha"&gt;5142798
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código NCM&lt;/span&gt;&lt;span class="linha"&gt;04072100
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Gênero&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EX da TIP&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CFOP&lt;/span&gt;&lt;span class="linha"&gt;5102
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Outras Despesas Acessórias&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Desconto&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total do Frete&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Seguro&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Indicador de Composição do Valor Total da NF-e
+&lt;/span&gt;&lt;span class="linha"&gt;
+1 - O valor do item (vProd) compõe o valor total da NF-e (vProd)
+
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Comercial&lt;/span&gt;&lt;span class="linha"&gt;07895000320547
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Tributável&lt;/span&gt;&lt;span class="linha"&gt;07895000320547
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Comercialização&lt;/span&gt;&lt;span class="linha"&gt;10.59
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Tributação&lt;/span&gt;&lt;span class="linha"&gt;10.59
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Aproximado dos Tributos&lt;/span&gt;&lt;span class="linha"&gt;2.35
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Item do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número da FCI&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Codificação NVE&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--ICMS NORMAL E ST--&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+ICMS NORMAL E ST
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Origem da Mercadoria&lt;/span&gt;&lt;span class="linha"&gt;0 - Nacional&lt;/span&gt;&lt;/td&gt;&lt;td width="33%" colspan="2"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Tributação do ICMS&lt;/span&gt;&lt;span class="linha"&gt;40 - Isenta&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor ICMS desoneração&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;  
+  &lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--IPI--&gt;&lt;!--II--&gt;&lt;!--DI--&gt;&lt;!--PIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+PROGRAMA DE INTEGRAÇÃO SOCIAL (PIS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;06 - Operação Tributável (alíquota zero)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--PISST--&gt;&lt;!--COFINS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+CONTRIBUIÇÃO PARA FINANCIAMENTO DA SEGURIDADE SOCIAL (COFINS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;06 - Operação Tributável (alíquota zero)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--COFINSST--&gt;&lt;!--ISSQN--&gt;&lt;!--VEÍCULO NOVO--&gt;&lt;!--MEDICAMENTO--&gt;&lt;!--ARMAMENTO--&gt;&lt;!--COMBUSTÍVEL--&gt;&lt;!--INFORMAÇÕES ADICIONAIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;
+&lt;table width="100%" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="4"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+INFORMAÇÕES ADICIONAIS DO PRODUTO
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;span class="linha"&gt;002200340002I
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0" style="z-index:1;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="4%"&gt;&lt;img src="./autoUso_files/ico_menos.gif" id="img72" title="Detalhar" style="cursor: pointer" onclick="expandcontent('72', this.id)"&gt;7&lt;/td&gt;&lt;td width="46%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;QJ RAL VIGOR 50G&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor(R$)&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;3.94&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div id="72" style="display:block;min-height:100px;  height:auto; _height:0%;"&gt;
+&lt;table border="0" width="95%" cellpadding="2px" cellspacing="0" align="right"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código do produto&lt;/span&gt;&lt;span class="linha"&gt;737364
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código NCM&lt;/span&gt;&lt;span class="linha"&gt;04062000
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Gênero&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EX da TIP&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CFOP&lt;/span&gt;&lt;span class="linha"&gt;5102
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Outras Despesas Acessórias&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Desconto&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total do Frete&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Seguro&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Indicador de Composição do Valor Total da NF-e
+&lt;/span&gt;&lt;span class="linha"&gt;
+1 - O valor do item (vProd) compõe o valor total da NF-e (vProd)
+
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Comercial&lt;/span&gt;&lt;span class="linha"&gt;07891999970053
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Tributável&lt;/span&gt;&lt;span class="linha"&gt;07891999970053
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;UN&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;1.000&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Comercialização&lt;/span&gt;&lt;span class="linha"&gt;3.94
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Tributação&lt;/span&gt;&lt;span class="linha"&gt;3.94
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Aproximado dos Tributos&lt;/span&gt;&lt;span class="linha"&gt;0.88
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Item do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número da FCI&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Codificação NVE&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--ICMS NORMAL E ST--&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+ICMS NORMAL E ST
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Origem da Mercadoria&lt;/span&gt;&lt;span class="linha"&gt;0 - Nacional&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Tributação do ICMS&lt;/span&gt;&lt;span class="linha"&gt;00 - Tributada integralmente&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Modalidade Definição da BC ICMS NORMAL&lt;/span&gt;&lt;span class="linha"&gt;3 - Valor da Operação&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Base de Cálculo do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;3.94
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Alíquota do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;18.0000
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;0.71
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--IPI--&gt;&lt;!--II--&gt;&lt;!--DI--&gt;&lt;!--PIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+PROGRAMA DE INTEGRAÇÃO SOCIAL (PIS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;06 - Operação Tributável (alíquota zero)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--PISST--&gt;&lt;!--COFINS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+CONTRIBUIÇÃO PARA FINANCIAMENTO DA SEGURIDADE SOCIAL (COFINS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;06 - Operação Tributável (alíquota zero)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--COFINSST--&gt;&lt;!--ISSQN--&gt;&lt;!--VEÍCULO NOVO--&gt;&lt;!--MEDICAMENTO--&gt;&lt;!--ARMAMENTO--&gt;&lt;!--COMBUSTÍVEL--&gt;&lt;!--INFORMAÇÕES ADICIONAIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;
+&lt;table width="100%" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="4"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+INFORMAÇÕES ADICIONAIS DO PRODUTO
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;span class="linha"&gt;002600410001T9
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0" style="z-index:1;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="4%"&gt;&lt;img src="./autoUso_files/ico_menos.gif" id="img82" title="Detalhar" style="cursor: pointer" onclick="expandcontent('82', this.id)"&gt;8&lt;/td&gt;&lt;td width="46%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;LARANJA PERA GNEL kg&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0.845&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;KG&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor(R$)&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;2.19&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div id="82" style="display:block;min-height:100px;  height:auto; _height:0%;"&gt;
+&lt;table border="0" width="95%" cellpadding="2px" cellspacing="0" align="right"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código do produto&lt;/span&gt;&lt;span class="linha"&gt;247399
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código NCM&lt;/span&gt;&lt;span class="linha"&gt;08051000
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Gênero&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EX da TIP&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CFOP&lt;/span&gt;&lt;span class="linha"&gt;5102
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Outras Despesas Acessórias&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Desconto&lt;/span&gt;&lt;span class="linha"&gt;0.33
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total do Frete&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Seguro&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Indicador de Composição do Valor Total da NF-e
+&lt;/span&gt;&lt;span class="linha"&gt;
+1 - O valor do item (vProd) compõe o valor total da NF-e (vProd)
+
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Comercial&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;KG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;0.845&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Tributável&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;KG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;0.845&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Comercialização&lt;/span&gt;&lt;span class="linha"&gt;2.59
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Tributação&lt;/span&gt;&lt;span class="linha"&gt;2.59
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Aproximado dos Tributos&lt;/span&gt;&lt;span class="linha"&gt;0.41
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Item do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número da FCI&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Codificação NVE&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--ICMS NORMAL E ST--&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+ICMS NORMAL E ST
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Origem da Mercadoria&lt;/span&gt;&lt;span class="linha"&gt;0 - Nacional&lt;/span&gt;&lt;/td&gt;&lt;td width="33%" colspan="2"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Tributação do ICMS&lt;/span&gt;&lt;span class="linha"&gt;40 - Isenta&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor ICMS desoneração&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;  
+  &lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--IPI--&gt;&lt;!--II--&gt;&lt;!--DI--&gt;&lt;!--PIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+PROGRAMA DE INTEGRAÇÃO SOCIAL (PIS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;06 - Operação Tributável (alíquota zero)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--PISST--&gt;&lt;!--COFINS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+CONTRIBUIÇÃO PARA FINANCIAMENTO DA SEGURIDADE SOCIAL (COFINS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;06 - Operação Tributável (alíquota zero)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--COFINSST--&gt;&lt;!--ISSQN--&gt;&lt;!--VEÍCULO NOVO--&gt;&lt;!--MEDICAMENTO--&gt;&lt;!--ARMAMENTO--&gt;&lt;!--COMBUSTÍVEL--&gt;&lt;!--INFORMAÇÕES ADICIONAIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;
+&lt;table width="100%" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="4"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+INFORMAÇÕES ADICIONAIS DO PRODUTO
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;span class="linha"&gt;002200030003I
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0" style="z-index:1;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="4%"&gt;&lt;img src="./autoUso_files/ico_menos.gif" id="img92" title="Detalhar" style="cursor: pointer" onclick="expandcontent('92', this.id)"&gt;9&lt;/td&gt;&lt;td width="46%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;PAO FRANCES kg&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0.290&lt;/span&gt;&lt;/td&gt;&lt;td width="20%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;KG&lt;/span&gt;&lt;/td&gt;&lt;td width="15%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor(R$)&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;3.16&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div id="92" style="display:block;min-height:100px;  height:auto; _height:0%;"&gt;
+&lt;table border="0" width="95%" cellpadding="2px" cellspacing="0" align="right"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código do produto&lt;/span&gt;&lt;span class="linha"&gt;421935
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código NCM&lt;/span&gt;&lt;span class="linha"&gt;19059090
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Gênero&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EX da TIP&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CFOP&lt;/span&gt;&lt;span class="linha"&gt;5102
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Outras Despesas Acessórias&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Desconto&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total do Frete&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Seguro&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;
+Indicador de Composição do Valor Total da NF-e
+&lt;/span&gt;&lt;span class="linha"&gt;
+1 - O valor do item (vProd) compõe o valor total da NF-e (vProd)
+
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Comercial&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;KG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Comercial&lt;/span&gt;&lt;span class="linha"&gt;0.290&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código EAN Tributável&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Unidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;KG&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Quantidade Tributável&lt;/span&gt;&lt;span class="linha"&gt;0.290&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Comercialização&lt;/span&gt;&lt;span class="linha"&gt;10.90
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Unitário de Tributação&lt;/span&gt;&lt;span class="linha"&gt;10.90
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Aproximado dos Tributos&lt;/span&gt;&lt;span class="linha"&gt;0.70
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Item do pedido de compra&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número da FCI&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Codificação NVE&lt;/span&gt;&lt;span class="linha"&gt;
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--ICMS NORMAL E ST--&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+ICMS NORMAL E ST
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Origem da Mercadoria&lt;/span&gt;&lt;span class="linha"&gt;0 - Nacional&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Tributação do ICMS&lt;/span&gt;&lt;span class="linha"&gt;00 - Tributada integralmente&lt;/span&gt;&lt;/td&gt;&lt;td width="33%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Modalidade Definição da BC ICMS NORMAL&lt;/span&gt;&lt;span class="linha"&gt;3 - Valor da Operação&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Base de Cálculo do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;3.16
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Alíquota do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;7.0000
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do ICMS Normal&lt;/span&gt;&lt;span class="linha"&gt;0.22
+&amp;nbsp;
+  &lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--IPI--&gt;&lt;!--II--&gt;&lt;!--DI--&gt;&lt;!--PIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+PROGRAMA DE INTEGRAÇÃO SOCIAL (PIS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;06 - Operação Tributável (alíquota zero)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--PISST--&gt;&lt;!--COFINS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+CONTRIBUIÇÃO PARA FINANCIAMENTO DA SEGURIDADE SOCIAL (COFINS)
+&lt;/span&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Código de Situação Tributária&lt;/span&gt;&lt;span class="linha"&gt;06 - Operação Tributável (alíquota zero)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;!--COFINSST--&gt;&lt;!--ISSQN--&gt;&lt;!--VEÍCULO NOVO--&gt;&lt;!--MEDICAMENTO--&gt;&lt;!--ARMAMENTO--&gt;&lt;!--COMBUSTÍVEL--&gt;&lt;!--INFORMAÇÕES ADICIONAIS--&gt;&lt;tr&gt;&lt;td width="100%" colspan="3"&gt;
+&lt;table width="100%" cellpadding="2px" cellspacing="0px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="4"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+INFORMAÇÕES ADICIONAIS DO PRODUTO
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;span class="linha"&gt;002300050009T1
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;
+&lt;table width="100%" height="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;TOTAIS&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--ICMS--&gt;
+&lt;table width="100%" height="100%" border="0" cellpadding="1px" cellspacing="0" style="margin-left: 5px;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="4" height="6"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="100%" colspan="4"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;IMPOSTO SOBRE CIRCULAÇÃO DE MERCADORIAS E SERVIÇOS (ICMS)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Base de Cálculo ICMS&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;28.82&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do ICMS&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;4.83&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Base de Cálculo ICMS ST&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0.00&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor ICMS Substituição&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0.00&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor ICMS FCP/UF dest&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0,00&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor ICMS Int UF dest&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0,00&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor ICMS Int UF remet&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0,00&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;
+  &amp;nbsp;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total dos Produtos&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;48.25&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Frete&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0.00&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Seguro&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0.00&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Outras Despesas Acessórias&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0.00&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total do IPI&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0.00&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total da NFe&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;47.92&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total dos Descontos&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0.33&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor Total do II&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0.00&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do PIS&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;0.34&lt;/span&gt;&lt;/td&gt;&lt;td width="25%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor da COFINS&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;1.57&lt;/span&gt;&lt;/td&gt;&lt;td width="50%" colspan="2"&gt;&lt;span style="visibility: hidden" class="TextoFundoBrancoNegrito"&gt;&lt;br&gt;&lt;span style="visibility: hidden" class="linha"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--ISSQN--&gt;&lt;!--RETENÇÃO DE TRIBUTOS--&gt;&lt;br&gt;&lt;br&gt;
+&lt;table width="100%" height="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;DADOS DO TRANSPORTE&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="100%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Modalidade do Frete&lt;/span&gt;&lt;br&gt;&lt;span class="linha"&gt;9 -
+Sem Frete&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;
+&lt;table width="100%" height="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+DADOS DE COBRANÇA
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;table width="100%" height="100%" border="0" cellpadding="2px" cellspacing="0" style="margin-left: 5px"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%" colspan="5"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;Formas de Pagamento&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Forma de Pagamento&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Valor do Pagamento&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Tipo&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;CNPJ da Credenciadora&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Bandeira da operadora&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Número de autorização&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span class="linha"&gt;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="linha"&gt;47.92&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="linha"&gt;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="linha"&gt;01.027.058/0001-91&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="linha"&gt;
+99 - Outros
+&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="linha"&gt;616884&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan="2"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+INFORMAÇÕES ADICIONAIS
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Formato de Impressão DANFE&lt;/span&gt;&lt;span class="linha"&gt;
+4 - DANFE NFC-e
+&lt;/span&gt;&lt;/td&gt;&lt;td width="50%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Versão XSLT&lt;/span&gt;&lt;span class="linha"&gt;
+v3.1.0
+&amp;nbsp;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;table width="100%" border="0" cellpadding="2px" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="100%"&gt;&lt;span class="TituloAreaRestrita" style="background:#004800; color:#FFFFFF; font-weight:normal"&gt;
+INFORMAÇÕES COMPLEMENTARES DE INTERESSE DO CONTRIBUINTE
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width="100%"&gt;&lt;span class="TextoFundoBrancoNegrito"&gt;Descrição&lt;/span&gt;&lt;span class="linha"&gt;20170706123304300017263&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--Documentos Fiscais Referenciados--&gt;
+&lt;table width="100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;label style="margin-top:20px"&gt;
+Data/Hora da Impressão: 10/07/2017 06:04:20&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="textURL.Text" xml:space="preserve">
+    <value>http://dec.fazenda.df.gov.br/ConsultarNFCe.aspx?chNFe=53170747508411103559650430001161211000182092&amp;nVersao=100&amp;tpAmb=1&amp;cDest=02848056614&amp;dhEmi=323031372d30372d30375430393a30393a30352d30333a3030&amp;vNF=44.68&amp;vICMS=1.62&amp;digVal=526b3237514d4e4b796475472b3969356a75687846345958696f673d&amp;cIdToken=000002&amp;cHashQRCode=4ffd5ebb56a8a2fd1f5779a0f58f2a9db7d9e4eb</value>
+  </data>
+  <metadata name="webBrowser.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="webBrowser.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
