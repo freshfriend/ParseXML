@@ -1,9 +1,0 @@
-E:\_Work\VS\ParseXML\ParseXML\bin\Debug\ParseXML.exe.config
-E:\_Work\VS\ParseXML\ParseXML\bin\Debug\ParseXML.exe
-E:\_Work\VS\ParseXML\ParseXML\bin\Debug\ParseXML.pdb
-E:\_Work\VS\ParseXML\ParseXML\obj\Debug\ParseXML.csprojResolveAssemblyReference.cache
-E:\_Work\VS\ParseXML\ParseXML\obj\Debug\ParseXML.Properties.Resources.resources
-E:\_Work\VS\ParseXML\ParseXML\obj\Debug\ParseXML.csproj.GenerateResource.Cache
-E:\_Work\VS\ParseXML\ParseXML\obj\Debug\ParseXML.exe
-E:\_Work\VS\ParseXML\ParseXML\obj\Debug\ParseXML.pdb
-E:\_Work\VS\ParseXML\ParseXML\obj\Debug\ParseXML.FormMain.resources

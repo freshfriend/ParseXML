@@ -9,7 +9,7 @@ namespace ParseXML
     public partial class FormMain : System.Windows.Forms.Form
     {
         public bool loaded = false;
-        public bool start = false;
+        public bool start;
         public bool test = false; // Test Mode if "true" it will work on Test Environment.
         public string key = "auto"; // Search Key to find "second button"
 
@@ -27,7 +27,7 @@ namespace ParseXML
 
         private void BtnGenerate_Click(object sender, EventArgs e)
         {
-            start = true;
+            StartNavigating(true);
             loaded = false;
             CleanLogs();
             LogStatus("Loading first page...");
@@ -35,6 +35,12 @@ namespace ParseXML
                 webBrowser.Navigate(textURL.Text); // Start Parsing
             else
                 ParseXML(); // For Test
+        }
+
+        private void StartNavigating (bool flag)
+        {
+            start = flag;
+            webBrowser.Visible = !flag;
         }
 
         private void WebBrowser_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
@@ -62,7 +68,10 @@ namespace ParseXML
                         }
                     }
                     if (!f)
+                    {
+                        StartNavigating(false);
                         LogStatus("Cannot find URL. Try again!", "Error");
+                    }
                 }
             }
             else
@@ -77,6 +86,7 @@ namespace ParseXML
 
         private void ParseXML()
         {
+            StartNavigating(false);
             if (test)
             {
                 string siteContent = string.Empty;
@@ -100,8 +110,7 @@ namespace ParseXML
                 string paragraphSeparator = ((char)0x2029).ToString();
                 siteContent = siteContent.Replace("\r\n", string.Empty).Replace("\t", string.Empty).Replace("\n", string.Empty).Replace("\r", string.Empty).Replace(lineSeparator, string.Empty).Replace(paragraphSeparator, string.Empty);
 
-                labelStatus.ForeColor = System.Drawing.Color.DodgerBlue;
-                LogStatus("Successfully Parsed! Exporting...");
+                LogStatus("Successfully Parsed! Exporting...", "Success");
                 textXML.Lines = GenerateXMLfromString(siteContent);
                 ExportMXL();
             }
@@ -113,7 +122,15 @@ namespace ParseXML
             if (fileName == "")
                 LoadFiles();
             else
+            {
+                if (start)
+                {
+                    StartNavigating(false);
+                    LogStatus("Parsing stopped by interrupt!", "Error");
+                }
+                LogStatus(fileName, "ViewLog");
                 NavigateExportedFile(fileName);
+            }
         }
 
         private void Window_Error(object sender, HtmlElementErrorEventArgs e)
@@ -140,11 +157,12 @@ namespace ParseXML
 
         private void LogStatus(string log, string prefix = "Common")
         {
-            if (prefix == "Error")
+            if (prefix != "ViewLog")
             {
-                labelStatus.ForeColor = System.Drawing.Color.Red;
+                if (prefix == "Error") labelStatus.ForeColor = System.Drawing.Color.Red;
+                if (prefix == "Success") labelStatus.ForeColor = System.Drawing.Color.DodgerBlue;
+                labelStatus.Text = log;
             }
-            labelStatus.Text = log;
             List<string> lines = textStatus.Lines.ToList();
             DateTime logtime = DateTime.Now;
             string timeLog = "[" + logtime.ToString("hh:mm:ss.ff tt") + "]";
@@ -169,7 +187,6 @@ namespace ParseXML
 
         private void ExportMXL ()
         {
-            start = false;
             string exportFileName = "export_" + DateTime.Now.ToString("yyyyhhmmsstt") + ".xml";
             File.WriteAllText(exportFileName, textXML.Text);
 
